@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href = "https://fonts.googleapis.com/css2? family = Noto + Sans + KR & display = swap" rel = "stylesheet">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+    <div id="wrap">
+        <header id="header">
+            <!--
+                헤더 구조
+                헤더IN
+                    LOGO(pc)/ LOGO(mo)
+                    pc메뉴
+                    pc유틸
+                    pc검색
+                    mo검색
+                    공통장바구니
+                    mo메뉴
+            -->
+            <div class="headerIn">
+                <h1 class="logo"><a href="">큐브미</a></h1>
+                <nav class="pc_gnb">
+                    <ul>
+                        <li><a href="">모든상품</a></li>
+                        <li><a href="">이벤트</a></li>
+                        <li class="new"><a href="">매거진</a></li>
+                        <li><a href="">브랜드소개</a></li>
+                        <li><a href="">매장안내</a></li>
+                        <li><a href="">고객센터</a></li>
+                    </ul>
+                </nav><!--.pc_gnb-->
+                <div class="pc_util">
+                    <ul>
+                        <li class="point"><a href="">회원가입</a></li>
+                        <li><a href="">로그인</a></li>
+                        <li><a href="">고객센터</a></li>
+                    </ul>
+                </div><!--.pc_util-->
+                <div class="icons">
+                    <p class="mo_btn_search"><a href="">상품 검색</a></p>
+                    <div class="pc_search">
+                        <form action="" name="h_search_box">
+                            <fieldset>
+                                <!--필드셋의 제목-->
+                                <legend>상품검색</legend>
+                                <!-- input태그는 inline요소로써 나란히 배열됌-->
+                                <input type="text" class="hs_input_text" name="hs_pd_name" id="hs_pd_name">
+                                <input type="button" value="검색" class="hs_input_btn" id="hs_search_submit">
+                            </fieldset>
+                        </form><!--.h_search_box-->
+                    </div><!--.pc_search-->
+                    <p class="btn_cart">
+                        <a href="">장바구니</a>
+                        <span class="count">0</span>
+                    </p>
+                    <p class="mo_btn_menu">
+                        <a href="">
+                            <span>메뉴열기</span>
+                            <span></span>
+                            <span></span> 
+                        </a>
+                    </p>
+                </div><!--.icons-->
+            </div><!--.header_in-->
+        </header><!--.header-->
+        <div id="container">
+            <div class="row1">
+                <div class="row1_in">
+                    <div class="main_slide">
+                        <div class="ms_img">
+                            <a href="">
+                                <img src="./img/mainSlide_m_01.jpg" alt="유기농 녹차의 건강함 가득" class="mo">
+                                <img src="./img/mainSlide01.jpg" alt="유기농 녹차의 건강함 가득" class="pc">
+                            </a>
+                        </div><!--.ms_img-->
+                        <p class="ms_prev"><a href=""><span class="hide">이전으로</span> </a></p>
+                        <p class="ms_next"><a href=""><span class="hide">다음으로</span></a></p>
+                        <p class="ms_pager">1/2</p>
+                    </div><!--.main_slide-->
+                    <div class="pc_main1Bn">
+                        <p class="m1b1"><a href="">Only for you! 오직 큐브미에서만!</a></p>
+                        <p class="m1b2"><a href="">#CUBEME Magazine</a></p>
+                        <p class="m1b3"><a href="">CUBEME Story</a></p>
+                    </div><!--.pc_main1Bn-->
+                </div><!--.row1_in-->
+            </div><!--.row1-->
+            <div class="row2">
+                <div class="row2_in">
+                    <div class="main_in">
+                        <div class="main_title">
+                            <h2>가장 핫한 큐브</h2>
+                            <p>12월 가장 인기 많은 베스트 큐브를 만나보세요</p>
+                        </div><!--.main_title-->
+                        <div class="best_list">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <p class="pd_img"><img src="./img/item01.png" alt=""></p>
+                                        <p class="pd_name">퍼펙트 큐브</p>
+                                        <p class="pd_prise">125,000<span>원</span></p>
+                                        <p class="pd_memo">내 몸에 흐르는 탱탱분자! 히알루론산과 콜라겐을 동시에! 새콤달콤 고농축 뷰티엠플</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="pd_img"><img src="./img/item02.png" alt=""></p>
+                                        <p class="pd_name">콜라겐 큐브</p>
+                                        <p class="pd_prise">29,000<span>원</span></p>
+                                        <p class="pd_memo">피부 간식, 출근 완료! 비타민C로 쑥쑥 흡수되는 간편 충전 저분자 피쉬 콜라겐 1,000mg 함유</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="pd_img"><img src="./img/item03.png" alt=""></p> 
+                                        <p class="pd_name">슬림 큐브</p>
+                                        <p class="pd_prise">40,000<span>원</span></p>
+                                        <p class="pd_memo">늘씬한 것들 모두 모여! 한 포로 챙기는 슬림핏 멀티 파우치</p>
+                                    </a>
+                                </li> 
+                            </ul>  
+                        </div><!--.best_list-->
+                        <p class="best_more"><a href="">모두보기(6)</a></p> 
+                    </div><!--.main_in-->
+                </div><!--.row2_in-->
+            </div><!--.row2-->
+            <div class="row3">
+                <div class="row3_in">
+                    <div class="main_in">
+                        <div class="main_title">
+                            <h2>진행 중인 이벤트</h2>
+                        </div><!--.main_title-->
+                        <div class="event_list">
+                            <ul>
+                                <li>
+                                    <a href="">
+                                        <p class="ev_img"><img src="./img/event01.jpg" alt=""></p>
+                                        <p class="ev_title">Only For You! 오직 큐브미에서만!</p>
+                                        <p class="ev_memo">큐브미 공식몰 OPEN EVENT</p>
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="">
+                                        <p class="ev_img"><img src="./img/event02.jpg" alt=""></p>
+                                        <p class="ev_title">신제품 출시 이벤트 2+1</p>
+                                        <p class="ev_memo">특허받은 녹차 유산균</p>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div><!--.event_list-->
+                        <p class="ev_more"><a href="">모두보기(3)</a></p>
+                    </div><!--.main_in-->
+                </div><!--.row3_in-->
+            </div><!--.row3-->
+            <div class="row4">
+                <div class="row4_in">
+                    <div class="award_mark"><img src="./img/award01.png" alt="레드닷 어워드 2019 위너"></div><!--.award_mark-->
+                    <div class="award_util">
+                        <div class="award_pager">
+                            <ul>
+                                <li class="on"><a href="">1</a></li>
+                                <li><a href="">2</a></li>
+                                <li><a href="">3</a></li>
+                                <li><a href="">4</a></li>
+                                <li><a href="">5</a></li>
+                            </ul>
+                        </div><!--.award_pager-->
+                        <div class="award_text"><a href=""><img src="./img/award_text.png" alt=""></a></div><!--.award_text-->
+                    </div><!--.award_util-->
+                </div><!--.row4_in-->
+            </div><!--.row4-->
+            <div class="row5">
+                <div class="main_in">
+                    <div class="main_title">
+                        <h2>이 상품 어때요?</h2>
+                        <p>언제나 간편하고 즐겁게, 큐브미</p>
+                    </div><!--.main_title-->
+                    <div class="item_list">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <p class="pd_img"><img src="./img/item11.png" alt=""></p>
+                                    <p class="pd_name">워터뱅크 큐브</p>
+                                    <p class="pd_prise">36,000<span>원</span></p>
+                                    <p class="pd_memo">물, 마시지 마세요. 속부터 차오르는 리얼보습 히알루론산</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <p class="pd_img"><img src="./img/item12.png" alt=""></p>
+                                    <p class="pd_name">블럭 큐브</p>
+                                    <p class="pd_prise">23,000<span>원</span></p>
+                                    <p class="pd_memo">참을 수 있는 존재의 가벼움! 가르시니아 캄보지아 추출물로 즐기는 가뿐한 습관</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <p class="pd_img"><img src="./img/item13.png" alt=""></p> 
+                                    <p class="pd_name">커트 큐브</p>
+                                    <p class="pd_prise">30,000<span>원</span></p>
+                                    <p class="pd_memo">오늘도 걱정없이 먹는다! 일상이 즐거워지는 체지방 커트</p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <p class="pd_img"><img src="./img/item14.png" alt=""></p> 
+                                    <p class="pd_name">말티비타 큐브(6주분×2개)</p>
+                                    <p class="pd_prise">70,000<span>원</span></p>
+                                    <p class="pd_memo">새콤달콤 츄어블로 스스로 찾는 영양 습관, 내아이를 위한 13가지 멀티비타민미네랄</p>
+                                </a>
+                            </li> 
+                            <li>
+                                <a href="">
+                                    <p class="pd_img"><img src="./img/item15.png" alt=""></p> 
+                                    <p class="pd_name">그린락토 큐브(6주분×2개)</p>
+                                    <p class="pd_prise">70,000<span>원</span></p>
+                                    <p class="pd_memo">쑥쑥 크는 아이에게 꼭 필요한 신바이오틱스, 유기농 녹차 유산균으로 지키는 우리 아이 장건강 </p>
+                                </a>
+                            </li> 
+                        </ul>  
+                    </div><!--.best_list-->
+                </div><!--.main_in-->
+            </div><!--.row5-->
+            <div class="row6">
+                <div class="main_in">
+                    <div class="main_title">
+                        <h2>Magazine</h2>
+                        <p>어디에도 없는 큐브미의 웰니스 이야기 </p>
+                    </div><!--.main_title-->
+                    <div class="mag_list">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <a href="">
+                                        <p class="mag_img"><img src="./img/magazine01.jpg" alt=""></p> 
+                                        <p class="mag_name">누기누가 예쁘게 먹나</p>
+                                        <p class="mag_memo">효과 만점이라지만 조금은 유난스러운 이너 뷰티 챙기기.
+                                            콜라겐, 꼭 숨어서 먹어야 할까요? 사랑스러운 보틀과 알록달록한...</p>
+                                        <p class="mag_hash">#콜라겐 #스타일 #lifestyle</p>
+                                    </a>
+                                    <p><img src="./img/" alt=""></p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <a href="">
+                                        <p class="mag_img"><img src="./img/magazine02.jpg" alt=""></p> 
+                                        <p class="mag_name">[슬.피.생.2] What? 음식으로 잘 채워지지 않는...</p>
+                                        <p class="mag_memo">이름도 어려운 영양제, 너무 많고 복잡하다고요? 영양제에 대해 
+                                            논하기 전에 영양소에 대해 먼저 알려드릴게요. 영양소를 알면...
+                                        </p>
+                                        <p class="mag_hash">#건강기능식품 #콜라겐 #health #body</p>
+                                    </a>
+                                    <p><img src="./img/" alt=""></p>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <a href="">
+                                        <p class="mag_img"><img src="./img/magazine03.jpg" alt=""></p> 
+                                        <p class="mag_name">[슬.피.생.1] What? 잘 먹고, 잘 자는데 매일 피...</p>
+                                        <p class="mag_memo">콜라겐을 챙기기 전에 가장 먼저 해야할 일, 바로 여러분의 건강과
+                                            영양을 채우는것 아닐까요? 내 몸과 영양소에 대해 잘 알고...
+                                        </p>
+                                        <p class="mag_hash">#건강기능식품 #콜라겐 #health #body</p>
+                                    </a>
+                                    <p><img src="./img/" alt=""></p>
+                                </a>
+                            </li>
+                        </ul>
+                    </div><!--.magazine_list-->
+                    <p class="mag_more"><a href="">모두보기(7)</a></p>
+                </div><!--.main_in-->
+            </div><!--.row6-->
+            <div class="row7">
+                <div class="main_in">
+                    <div class="main_title">
+                        <h2 class="icon_ins">cubeme_oficial</h2>
+                        <p>12월 가장 인기 많은 베스트 큐브를 만나보세요</p>
+                    </div><!--.main_title-->
+                    <div class="insta_list">
+                        <ul>
+                            <li><a href=""><img src="./img/insta01.jpg" alt=""></a></li>
+                            <li><a href=""><img src="./img/insta02.jpg" alt=""></a></li>
+                            <li><a href=""><img src="./img/insta03.jpg" alt=""></a></li>
+                            <li><a href=""><img src="./img/insta04.jpg" alt=""></a></li>
+                            <li class="insta_pc"><a href=""><img src="./img/insta05.jpg" alt=""></a></li>
+                            <li class="insta_pc"><a href=""><img src="./img/insta06.jpg" alt=""></a></li>
+                            <li class="insta_pc"><a href=""><img src="./img/insta07.jpg" alt=""></a></li>
+                            <li class="insta_pc"><a href=""><img src="./img/insta08.jpg" alt=""></a></li>
+                            <li class="insta_pc"><a href=""><img src="./img/insta09.jpg" alt=""></a></li>
+                            <li class="insta_pc"><a href=""><img src="./img/insta10.jpg" alt=""></a></li>
+                        </ul>
+                    </div><!--.insta_list-->
+                </div><!--.main_in-->
+            </div><!--.row7-->
+        </div><!--#container-->
+        <footer id="footer">
+            <div class="footer_in">
+                <div class="f_logo">
+                    큐브미
+                </div><!--.f_logo-->
+                <div class="f_navi">
+                    <ul>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">Brand</a></li>
+                        <li><a href="">help</a></li>
+                        <li><a href="">Contact us</a></li>
+                    </ul>
+                </div><!--.fnavi-->
+                <div class="f_menu">
+                    <ul>
+                        <li><a href="">공지사항</a></li>
+                        <li><a href="">1:1문의</a></li>
+                        <li class="menu3"><a href="">자주 묻는 질문</a></li>
+                        <li class="point"><a href="">개인정보처리방침</a></li>
+                        <li><a href="">이용약관</a></li>
+                    </ul>
+                </div><!--.f_menu-->
+                <div class="f_info">
+                    <p>
+                        <span>(주)아모레퍼시픽</span>
+                        <span>대표이사:안세홍</span>
+                        <span>사업자등록번호:106-86-43373</span>
+                        <span><a href="">사업자정보 확인</a></span>
+                    </p>
+                    <p>
+                        <span>서울특별시 용산구 한강대로 100</span>
+                        <span>080-033-5454(쇼핑문의)</span>
+                        <span>080-023-5454(제품문의)</span>
+                    </p>
+                    <p>
+                        <span>통신판매업신고번호:20174-서울용산-1308호</span>
+                        <span>건강기능신품판매업 영업신고증 제8호</span>
+                    </p>
+                    <p>
+                        <span>전자메일주소:cube_mail@cubeme.co.kr</span>
+                        <span>호스팅제공자:(주)아모레퍼시픽</span>
+                    </p>
+                </div><!--.f_info-->
+                <div class="f_copyright">
+                    Copyright 2020 CUBE ME. All right reserved.
+                </div><!--.f_copyright-->
+                <div class="f_icons">
+                    <p class="f_fb"><a href="">페이스북</a></p>
+                    <p class="f_ins"><a href="">인스타</a></p>
+                    <p class="f_lang"><a href="">KOR</a></p>
+                </div><!--.f_icon-->
+                <div class="f_top">
+                    <a href="">처음으로</a>
+                </div><!--.f_top-->
+            </div><!--.fotter_in-->
+        </footer><!--#footer-->
+    </div>
+</body>
+</html>
